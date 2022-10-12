@@ -8,7 +8,7 @@ class Nguoi
         @cmnd_118 = cmnd_118
     end
 
-    def hienThiDanhSach()
+    def hienThiThongTin()
         puts("- Họ và tên: #{@hoTen_118} - Tuổi: #{@tuoi_118} - Nghề nghiệp: #{@ngheNghiep_118} - CMND: #{@cmnd_118}")
     end
 end
