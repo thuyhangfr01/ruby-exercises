@@ -1,0 +1,2 @@
+class QlMuonSach < ApplicationRecord
+end

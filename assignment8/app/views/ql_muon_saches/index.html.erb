@@ -1,0 +1,47 @@
+<br/>
+<div class = "container-fluid">
+<table class="table table-striped table-bordered table-hover">
+    <thead>
+      <tr>
+        <th>TT</th>
+        <th>STT</th>
+        <th>Mã HS</th>
+        <th>Họ và tên</th>
+        <th>Lớp</th>
+        <th>Mã sách</th>
+        <th>Tên sách</th>
+        <th>Tên tác giả</th>
+        <th>Tủ sách</th>
+        <th>Số BM</th>
+        <th>Ngày mượn</th>
+        <th>Ngày trả</th>
+        <th>Số ngày</th>
+        <th>Ghi chú</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% @ql_muon_saches.each do |ql_muon_sach_118| %>
+        <tr>
+          <td><%= ql_muon_sach_118.tt %></td>
+          <td><%= ql_muon_sach_118.id %></td>
+          <td><%= ql_muon_sach_118.maHS %></td>
+          <td><%= ql_muon_sach_118.hoVaTen %></td>
+          <td><%= ql_muon_sach_118.lop %></td>
+          <td><%= ql_muon_sach_118.maSach %></td>
+          <td><%= ql_muon_sach_118.tenSach %></td>
+          <td><%= ql_muon_sach_118.tenTacGia %></td>
+          <td><%= ql_muon_sach_118.tuSach %></td>
+          <td><%= ql_muon_sach_118.soBM %></td>
+          <td><%= ql_muon_sach_118.ngayMuon %></td>
+          <td><%= ql_muon_sach_118.ngayTra %></td>
+          <td><%= ql_muon_sach_118.soNgay %></td>
+          <td><%= ql_muon_sach_118.ghiChu %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+  <br/>
+</div>
+
+
